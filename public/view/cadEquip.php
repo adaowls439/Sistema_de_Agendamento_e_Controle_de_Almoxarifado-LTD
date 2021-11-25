@@ -1,6 +1,6 @@
 <div class="height-100 bg-light container-fluid">
    <div class="row">
-      <div class="box-cad col-lg-10 ">
+      <div class="box-cad col-lg-10">
          <h4>Adicionar Equipamento</h4>
          <form>
             <div class="form-row">

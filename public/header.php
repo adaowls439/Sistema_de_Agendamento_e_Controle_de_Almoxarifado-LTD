@@ -75,7 +75,7 @@
             <li>
                 <a href="?i=login">
                     <i class="fas fa-image"></i>
-                    Login
+                    Login #Apenas para test
                 </a>
             </li>
         </ul>
