@@ -15,7 +15,6 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
-
 </head>
 <div class="wrapper">
     <!-- Sidebar  -->
@@ -48,12 +47,20 @@
             </li>
 
             <li>
-                <a href="?i=acpAgenda">
-                    <i class="fas fa-image"></i>
-                    Meus Agendamentos
+                <a href="#acompanhamentoSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <i class="fas fa-copy"></i>
+                    Acompanhamento
                 </a>
+                <ul class="collapse list-unstyled" id="acompanhamentoSubmenu">
+                    <li>
+                        <a href="?i=acpMeu">Meus Agendamentos</a>
+                    </li>
+                    <li>
+                        <a href="?i=acpGeral">Agendamentos Gerais</a>
+                    </li>
+                </ul>
             </li>
-
+            
             <li>
                 <a href="#cadastroSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                     <i class="fas fa-copy"></i>

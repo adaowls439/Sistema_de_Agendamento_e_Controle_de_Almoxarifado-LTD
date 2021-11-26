@@ -35,9 +35,14 @@ switch ($pagina) {
         include 'public/view/cadUser.php';
         break;
 
-    case 'acpAgenda':
-        include 'public/view/acpAgenda.php';
+    case 'acpMeu':
+        include 'public/view/acpMeu.php';
         break;
+
+    case 'acpGeral':
+        include 'public/view/acpGeral.php';
+        break;
+        
     default:
         include 'public/view/painel.php';
         break;

@@ -61,8 +61,8 @@ span {
 }
 
 #sidebar.active {
-    min-width: 80px;
-    max-width: 130px;
+    min-width: 162px;
+    max-width: 162px;
     text-align: center;
 }
 
@@ -187,7 +187,7 @@ ul.CTAs {
     padding-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
 }
-.box-cad h4 {
+.box-cad h4, .box-cad form h2{
     text-align: center;
 }
 
@@ -204,6 +204,10 @@ ul.CTAs {
 .box-cad .thead {
     color: #fff;
     background-color: #15aebc;
+}
+
+.box-cad canvas {
+    max-height: 300px;
 }
 
 /* ---------------------------------------------------

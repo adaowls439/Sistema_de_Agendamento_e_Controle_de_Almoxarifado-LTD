@@ -1,6 +1,6 @@
 <div class="height-100 bg-light container">
     <div class="row">
-        <div class="box-cad col-lg-10">
+        <div class="box-cad col-lg-8">
             <form>
                 <h2>Login</h2>
                 <div class="form-group">
