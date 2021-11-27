@@ -5,12 +5,11 @@
     <!-- Chart.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
     <script src="public/js/scripts/chartScripts.js"></script>
-    
-    
+
     <script type="text/javascript">
         $(document).ready(function() {
             $('#sidebarCollapse').on('click', function() {
-                $('#sidebar').toggleClass('active'); 
+                $('#sidebar').toggleClass('active');
             });
         });
     </script>

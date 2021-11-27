@@ -38,7 +38,7 @@
                 </a>
                 <ul class="collapse list-unstyled" id="agendamentoSubmenu">
                     <li>
-                        <a href="?i=agdLab">Labóratorio</a>
+                        <a href="?i=agdLab">Laboratório</a>
                     </li>
                     <li>
                         <a href="?i=agdEquip">Equipamentos</a>

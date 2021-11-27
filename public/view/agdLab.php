@@ -1,5 +1,7 @@
 <div class="height-100 bg-light container-fluid">
    <div class="row">
-       <p>Agendar labóratorio</p>
+       <div class="box-cad col-lg-10">
+        <h4>Agendar Laboratório</h4>
+       </div>
    </div>
 </div>

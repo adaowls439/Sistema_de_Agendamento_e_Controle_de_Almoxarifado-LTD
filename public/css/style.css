@@ -180,8 +180,8 @@ ul.CTAs {
 .box-cad {
     background-color: white;
     margin: auto;
-    margin-top:  2%;
-    padding-top: 0.1%;
+    margin-top:  20px;
+    padding-top: 5px;
     width: 100%;
     border-top: 2px solid #15aebc;
     padding-bottom: 10px;
@@ -210,9 +210,36 @@ ul.CTAs {
     max-height: 300px;
 }
 
+.card {
+    max-width: 14rem;
+}
+
+.card div {
+    text-align: center;
+}
+
+.card-aula {
+    background-color: #15aebc;
+}
+
+.card-livre {
+    background-color: #0F7F8A;
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+@media (max-width: 1140px) {
+    .card-columns {
+        column-count: auto;
+    }
+}
+
+@media (min-width: 1140px) {
+    .card-columns {
+        column-count: auto;
+    }
+}
 
 @media (max-width: 768px) {
     #sidebar {
@@ -261,4 +288,5 @@ ul.CTAs {
     #sidebarCollapse span {
         display: none;
     }
+    
 }
