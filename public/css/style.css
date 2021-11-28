@@ -144,7 +144,7 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
-.dropdown-toggle::after {
+nav .dropdown-toggle::after {
     display: block;
     position: absolute;
     top: 50%;
@@ -187,9 +187,11 @@ ul.CTAs {
     padding-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
 }
+
 .box-cad h4, .box-cad form h2{
     text-align: center;
 }
+
 
 .box-cad button {
     background-color: #15aebc;
@@ -222,8 +224,8 @@ ul.CTAs {
     background-color: #15aebc;
 }
 
-.card-livre {
-    background-color: #0F7F8A;
+.card-livre, .btn-cancelar{
+    background-color: #0F7F8A !important;
 }
 
 /* ---------------------------------------------------
@@ -248,7 +250,7 @@ ul.CTAs {
         text-align: center;
         margin-left: -80px !important;
     }
-    .dropdown-toggle::after {
+    nav .dropdown-toggle::after {
         top: auto;
         bottom: 10px;
         right: 50%;

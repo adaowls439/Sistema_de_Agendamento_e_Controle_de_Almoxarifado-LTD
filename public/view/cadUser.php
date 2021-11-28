@@ -66,7 +66,28 @@
                   </div>
                </div>
             </div>
-            <button type="submit" class="btn">Salvar</button>
+            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter" hrf="#">Salvar</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Confirmar o cadastro do Usuário</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+                     </div>
+                     <div class="modal-body">
+                        <p>Confira os dados do usuário antes de prosseguir.</p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-cancelar" data-dismiss="modal">Voltar</button>
+                        <button type="submit" class="btn">Confirmar</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </form>
       </div>
    </div>
