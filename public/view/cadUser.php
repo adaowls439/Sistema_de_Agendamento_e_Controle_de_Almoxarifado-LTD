@@ -17,7 +17,7 @@
             <div class="form-row">
                <div class="form-group col-md-6">
                   <label for="text">CPF</label>
-                  <input type="text" class="form-control" id="" placeholder="Apenas números ou não?">
+                  <input type="text" class="form-control" id="" placeholder="Apenas números.">
                </div>
 
                <div class="form-group col-md-6">
