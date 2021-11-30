@@ -71,10 +71,28 @@
                         <a href="?i=cadLab">Labóratorio</a>
                     </li>
                     <li>
-                        <a href="?i=cadEquip">Equipamentos</a>
+                        <a href="?i=cadEquip">Equipamento</a>
                     </li>
                     <li>
                         <a href="?i=cadUsuario">Usuário</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#gerenciaSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <i class="fas fa-copy"></i>
+                    Gerenciar
+                </a>
+                <ul class="collapse list-unstyled" id="gerenciaSubmenu">
+                    <li>
+                        <a href="?i=gerLab">Labóratorio</a>
+                    </li>
+                    <li>
+                        <a href="?i=gerEquip">Equipamento</a>
+                    </li>
+                    <li>
+                        <a href="?i=gerUsuario">Usuário</a>
                     </li>
                 </ul>
             </li>

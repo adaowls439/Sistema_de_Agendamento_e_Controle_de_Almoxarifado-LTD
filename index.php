@@ -42,7 +42,19 @@ switch ($pagina) {
     case 'acpGeral':
         include 'public/view/acpGeral.php';
         break;
-        
+
+    case 'gerLab':
+        include 'public/view/gerLab.php';
+        break;
+
+    case 'gerEquip':
+        include 'public/view/gerEquip.php';
+        break;
+
+    case 'gerUser':
+        include 'public/view/gerUser.php';
+        break;
+
     default:
         include 'public/view/painel.php';
         break;
