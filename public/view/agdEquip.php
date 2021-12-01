@@ -43,6 +43,7 @@
                                 <th scope="col">#</th>
                                 <th scope="col">Nome</th>
                                 <th scope="col">Quantidade</th>
+                                <th scope="col">Descrição</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -50,16 +51,19 @@
                                 <th scope="row">1</th>
                                 <td>Projetor</td>
                                 <td>8</td>
+                                <td>Epson</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
                                 <td>Microfone</td>
                                 <td>6</td>
+                                <td>Shure</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
                                 <td>Câmera</td>
                                 <td>4</td>
+                                <td>Sony</td>
                             </tr>
                         </tbody>
                     </table>

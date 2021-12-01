@@ -2,7 +2,6 @@
    <div class="row">
       <div class="box-cad col-lg-10">
          <h4>Adicionar Equipamento</h4>
-         <p>Fazer melhoria desta parte</p>
          <form>
             <div class="form-row">
                <div class="form-group col-md-6">

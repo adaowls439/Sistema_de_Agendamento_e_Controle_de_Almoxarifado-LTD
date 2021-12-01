@@ -92,7 +92,7 @@
                         <a href="?i=gerEquip">Equipamento</a>
                     </li>
                     <li>
-                        <a href="?i=gerUsuario">Usuário</a>
+                        <a href="?i=gerUser">Usuário</a>
                     </li>
                 </ul>
             </li>
